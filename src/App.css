@@ -1,0 +1,493 @@
+
+@media screen and (max-width:1240px)
+{
+  .logo_img{
+    width: 1150px;
+  }
+ .head_txt{
+  width: 900px;
+ }
+ .dog_1{
+  width: 70px;
+ }
+ .building_1{
+  width: 600px;
+  margin-top: -80px;
+ }
+
+ .frame_1 {
+position: absolute;
+height: 400px;
+top: 890px;
+margin-left: -140px;
+/* height: 30px; */
+  /* width: 500px; */
+ 
+}
+.dog_lft{
+
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  /* left: 10px; */
+  
+  margin-top:-140px;
+  margin-left: -30px;
+}
+
+.frame_2{
+  margin-top: -300px;
+  width: 1000px;
+  
+  margin-left: 70px;
+}
+.cat_1{
+  position: absolute;
+  width: 70px;
+  left: -130px;
+  top: 765px;
+}
+
+.txt_box_1{
+  top: -370px;
+  width: 300px;
+  left: 70px;
+}
+.txt_box_2{
+  width: 300px;
+  top: -370px;
+  left: -40px;
+  /* margin-left: 30px; */
+}
+
+.txt_3{
+  width: 300px;
+  top: -370px;
+  left: -160px;
+  /* margin-right: -50px; */
+}
+.frame_3{
+  position: absolute;
+  /* top: 1600px; */
+  margin-top: -400px;
+  margin-left: 100px;
+  height: 500px;
+  /* width: 900px; */
+  /* margin-left: 160px; */
+}
+.cat_2{
+
+  width: 120px;
+  margin-top: -390px;
+  margin-left: 100px;
+}
+
+
+.register{
+  position: absolute;
+  width: 500px;
+  top: 600px;
+  left: 70px;
+
+}
+.bone_1{
+  position: absolute;
+  width: 30px;
+  left: -60px;
+  top: 580px;
+  /* top: -10px; */
+}
+
+.name_1{
+  /* position: absolute; */
+  left: 450px;
+ top: 550px;
+  
+/* height: 120px; */
+  /* width: 60px; */
+}
+.email{
+  top: 550px;
+  left: 450px;
+
+}
+
+.phone_no{
+  top: 550px;
+  left: 450px;
+
+}
+
+#n1{
+  top: 550px;
+  left: 450px;
+}
+
+#e1{
+  top: 450px;
+  left: 450px;
+}
+
+#p1{
+  top: 650px;
+  left: 450px;
+}
+
+.cat_3{
+top: 550px;
+left: 460px;
+
+}
+
+.submit_btn {
+  position: absolute; 
+  /* display: flex; */
+  margin: 20px auto; /* Center the button */
+  top: 200px; /* Remove fixed position */
+  left: auto; /* Remove fixed position */
+  width: 300px; /* Adjust size for smaller screens */
+  font-size: 18px; /* Adjust text size */
+}
+
+.but_cont{
+  position: absolute;
+  top: -520px;
+  left: -240px;
+}
+
+.logo_2{
+  position: absolute;
+  top: 3200px;
+  left: 510px;
+  height: 80px;
+}
+.fol_cont{
+  position: absolute;
+  top: 3270px;
+  left: 580px;
+  height: 20px;
+}
+
+.insta_cont{
+  position: absolute;
+  top: 3330px;
+  left: 595px;
+  height: 40px;
+}
+
+.era_det{
+  position: absolute;
+  top: 3400px;
+  left: 520px;
+  height: 20px;
+}
+
+.privacy_cont{
+
+  position: absolute;
+  top: 3420px;
+  left: 450px;
+  height: 20px;
+}
+
+  .heart_img{
+    position: absolute;
+    top:3620px ;
+    width: 130px;
+    height: 350px;
+    left: -195px;
+    transform: rotate(-8.9deg);
+}
+
+.mad_with{
+  height: 20px;
+  top: 3450px;
+  left: -80px;
+}
+/* 1250px */
+}
+
+/* .n_dog{
+  height: 45px;
+} */
+
+.frame_3{
+  position: absolute;
+  top: 2300px;
+}
+
+.cat_2{
+  position: absolute;
+  top: 2250px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  height: 300px;
+}
+
+
+
+.dog_1 {
+  margin-top: 5%;
+  margin-left: 1%;
+}
+
+.build_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.building_1 {
+  height: 600px;
+}
+
+
+
+.frame_1 {
+  position: absolute;
+  left: 50px;
+  width: 1440px;
+  /* height: 4760.87px; */
+  
+}
+
+
+
+
+.dog_lft {
+  position: absolute;
+  top: 1010px;
+  left: 350px;
+  width: 100px;
+  height: auto;
+
+  /* Ensure it doesn't move horizontally */
+  animation: moveLegs 0.5s infinite; /* Leg animation */
+  transform-origin: bottom center; /* Set pivot point for rotation */
+}
+
+
+
+/* .fram_2_cont{
+    margin-top: 150px;
+} */
+
+.cat_cont {
+  display: flex;
+  margin-top: 60px;
+  margin-left: 40px;
+  /* justify-content: center; */
+  /* margin-left: 350px; */
+  /* margin-top: 40px; */
+}
+
+.frame_2{
+  position: absolute;
+  top: 1650px;
+}
+
+.txt_box_container{
+  position: absolute;
+  top: 1850px;
+}
+.cat_1 {
+  position: absolute;
+  /* margin-top: -10px; */
+  margin-top: 570px;
+  margin-left: 880px;
+}
+
+
+
+.txt_box_1{
+  position: absolute;
+  margin-left: 60px;
+
+}
+
+.txt_box_2{
+  position: absolute;
+  margin-left: 520px;
+}
+
+
+
+
+.txt_3 {
+  position: absolute;
+  /* margin-right: 50px; */
+  margin-left: 980px;
+}
+
+
+
+
+
+.register {
+  margin-top: 1920px;
+}
+
+
+.bone_1 {
+  position: absolute;
+  margin-top: 2010px;
+  margin-left: 560px;
+}
+
+.bone_cont {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-evenly; */
+}
+
+.credential_cont {
+  display: flex;
+  flex-direction: column;
+}
+
+.name_1 {
+  position: absolute;
+  margin-top: 2100px;
+  margin-left: 150px;
+  width: 586px;
+  height: 48px;
+  border-radius: 15.9px;
+  background-color: #FFDBE2;
+}
+
+
+
+.email {
+  position: absolute;
+  margin-top: 2200px;
+  margin-left: 150px;
+  width: 586px;
+  height: 48px;
+  border-radius: 15.9px;
+  background-color: #FFDBE2;
+}
+
+.phone_no {
+  position: absolute;
+  margin-top: 2300px;
+  margin-left: 150px;
+  width: 586px;
+  height: 48px;
+  border-radius: 15.9px;
+  background-color: #FFDBE2;
+}
+
+.cat_3 {
+  position: absolute;
+  margin-top: 2035px;
+  margin-left: 570px;
+}
+
+
+
+/* Hover effect */
+.submit_btn:hover {
+  transform: scale(1.1); /* Increase size by 10% */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add a shadow for more emphasis */
+}
+
+
+
+
+#n1 {
+  position: absolute;
+  margin-top:2080px;
+  margin-left: 155px;
+}
+
+#p1 {
+  position: absolute;
+  margin-top: 2180px;
+  margin-left: 155px;
+}
+
+ 
+#e1 {
+  position: absolute;
+margin-top: 2280px;
+  margin-left: 155px;
+}
+
+
+
+.submit_btn {
+  position: absolute;
+  margin-left: 1050px;
+  margin-top: -200px;
+  font-family: "Sora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 21px;
+  color: white;
+  border: none;
+  font-style: normal;
+  top: 3700px;
+  left: 10px;
+  height: 45px;
+  width: 120px;
+  border-radius: 9.75px;
+  border: none;
+  background-color: #e1647d;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease; 
+}
+
+.logo_cont{
+  display: flex;
+  
+  /* flex-direction: column; */
+  justify-content: center;
+
+}
+
+.fol_cont{
+  margin-top: 40px;
+  
+  display: flex;
+  justify-content: center;
+}
+
+.insta_cont{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.era_det{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.privacy_cont{
+
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.mad_with{
+  margin-top: 100px;
+  position: absolute;
+  margin-left: 600px;
+}
+
+.heart_img{
+  position: absolute;
+  margin-top:-300px ;
+  width: 1359.54px;
+  /* height: 574.88px; */
+  margin-left: 200px;
+  transform: rotate(-8.9deg);
+
+}

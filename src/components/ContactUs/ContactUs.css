@@ -1,0 +1,162 @@
+.contact-us-main{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.contact-and-cat{
+    display: flex;
+    flex-direction: row;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    justify-content: center;
+    /* margin-top: 7%; */
+    background-color: #f8dbf85e;
+}
+
+.contact-heading{
+    font-family: "Quicksand",sans-serif;
+    font-weight: 600;
+    font-size: 52px;
+}
+
+
+.contact-heading span{
+    color: #e3647c;
+    margin-left: 24%;
+}
+
+.divider-contact{
+    height: 2px; /* Thin line */
+    background-color: #e3647c; /* Divider color */
+    width: 500px; 
+    margin-top: 20px;
+}
+
+.contact-content{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+.contact-extended-para{
+    margin-left: 20%;
+}
+
+.contact-cat{
+    margin-top: -5%;
+    margin-left: 10%;
+}
+.contact-cat-1{
+    height: 400px;
+    
+}
+
+.contact-credentials{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "Quicksand",sans-serif;
+    font-size: 20px;
+}
+
+.contact-location{
+    padding: 2%;
+}
+
+.contact-phone{
+padding: 2%
+}
+
+.contact-mail{
+    padding: 2%;
+}
+
+.join-and-user-credentials{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+
+
+
+.contact-join-us-content{
+        margin-left: 15%;
+        font-family: "Quicksand",sans-serif;
+}
+
+.contact-para-1{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.contact-para-2{
+    font-size: 52px;
+    font-weight: 600;
+}
+.contact-para-2 span{
+    color: #e3647c;
+}
+.contact-para-3{
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.contact-user-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Space between input fields */
+    justify-content: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Box shadow */
+    padding: 20px; /* Add padding inside the container */
+    background-color: #fff; /* Optional: background for better contrast */
+    width: 550px; /* Restrict width of the container */
+    margin: 0 auto; /* Center the container */
+    box-sizing: border-box; /* Include padding in width/height */
+}
+
+.contact-name-field input,
+.contact-phone-field input,
+.contact-email-field input,
+.contact-message-field input {
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+    height: 50px;
+    width: 100%; /* Use full width of the parent container */
+    padding: 10px; /* Add inner padding */
+    border: 1px solid #ccc; /* Optional: border for inputs */
+    border-radius: 5px; /* Rounded corners */
+    box-sizing: border-box; /* Prevent overflow */
+}
+
+.contact-message-field input {
+    height: 120px; /* Larger height for message field */
+    resize: none; /* Disable resizing */
+}
+
+.contact-call-button {
+    font-family: "Quicksand", sans-serif;
+    background-color: black;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px auto 0; 
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+
+.contact-call-button:hover {
+    background-color: #e3647c;
+    border: none;
+    width: 180px; /* Reduce width on hover */
+    height: 45px; /* Reduce height on hover */
+}

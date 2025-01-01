@@ -14,8 +14,10 @@ function Header() {
 
   return (
     <>
-
+<div className="logo">
 <img className='logo_img' src={logo_img} alt=""  onClick={toggleMenu}/>
+</div>
+
 
 {/* Side Menu */}
 {isMenuOpen && (

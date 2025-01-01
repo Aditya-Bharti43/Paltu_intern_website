@@ -28,6 +28,7 @@ import heart_img from './assets/heart_img.svg'
 
 import './App.css'
 import Header from './components/Header/Header'
+import Footer from './components/Footer/Footer'
 
 
 function App() {
@@ -96,32 +97,8 @@ function App() {
 
       <img className='dog_lft' src="https://s3-alpha-sig.figma.com/img/1d6d/1b37/e3ffaff74f67ff4371718bb0e0b3f0a7?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=OB2ot340bIEMbv5Tagrw2pK841HlRI8QFpdpb~5zEjp3Non4xsZdTzDdwLmKko5OQbQ~XnwYxDjxn7kXs6DBCTsZeed5wqmFZse5Cf9e1tGet2yDojcrzn2jdjVJuz5~~3XBpYR39m4yohH2inKNe6~OXu2JPQ2usfsDjOmcxBhPikPyh6ZVNyaSrr8iU51NWfaJvbJj66IUsRk4TzxK3-Nsw8rhEnpeacrrZUgENSz9HZ8YW3Jh27pBVHx9vC8jQAvM67jOe4tcUtlao-Hld~j5urvjIDLU4qJMX-B1XTP9wRLoAt7IpaBYAfXSougnI0LoMGALKA9llQvmY4Otbw__" alt="" />
 
-      <div className="logo_cont">
-        <img className='logo_2' src={logo_2} alt="" />
-
-      </div>
-
-      <div className="fol_cont">
-        <img src={follow_txt} alt="" />
-      </div>
-
-      <div className="insta_cont">
-        <img src={insta_in} alt="" />
-      </div>
-
-      <div className="era_det">
-        <img src={era_det} alt="" />
-      </div>
-
-      <div className="privacy_cont">
-        <img src={priv_det} alt="" />
-      </div>
-
-      <img className="mad_with" src={mad_with} alt="" />
-
-      <div className="hrt_img">
-        <img className='heart_img' src={heart_img} alt="" />
-      </div>
+     
+      <Footer/>
 
 
 

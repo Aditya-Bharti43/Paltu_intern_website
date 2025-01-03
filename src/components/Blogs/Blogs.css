@@ -1,46 +1,328 @@
-.upper_txt{
-    font-family: "Quicksand",sans-serif;
-    font-size: 52px;
-    font-weight: 600;
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    top: 30px;
+.blog-and-cat{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 3%;
+
 }
 
-.pp-first-txt{
-    color: #e3647c;
+.blog-heading{
+  font-family: "Quicksand",sans-serif;
+  
+  font-size: 52px;
+  font-weight: 600;
 }
 
-.divider {
-    height: 1px; /* Thin line */
-    background-color: #e3647c; /* Divider color */
-    width: 100%; /* Full width */
-    margin: 10px 0; /* Optional spacing */
-    margin-top: 50px;
-  }
+.blog-divider{
+  height: 1px; /* Thin line */
+  background-color: #e3647c; /* Divider color */
+  width: 500px; 
+  margin-top: 20px;
+}
 
-  .content-go-to-screen{
-    margin-top: 20px;
-    font-size: 20px;
-    font-weight: 500;
-  }
+.blog-span-para{
+  color: #e3647c;
+}
+.blog-heading .bpara-1{
 
-  
-  
-  .main{
-    margin-top: -30px;
-    margin-left: 100px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
+  font-size: 20px;
+  font-weight: 500;
 
-  .cat_img{
-    padding-left: 100px;
-    /* height: ; */
-  }
+}
 
-  .cat-1{
-    height:450px ;
-  }
+.blog-down-para{
+  margin-top: -10%;
+  margin-left: 28%;
+}
+
+.blog-cat{
+margin-left: 8%;
+margin-top: -3%;
+}
+
+.blog-cat img{
+  height: 385px;
+}
+.blog-cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  font-family: "Quicksand",sans-serif;
+
+
+
+}
+.blog-cards img{
+  height: 303.33px;
+  border-radius: 15px;
+}
+.blog-first-col{
+  display: flex;
+  flex-direction: column;
+  margin-left: 2%;
+  margin-top: 5%;
+}
+
+.blog-second-col{
+  display: flex;
+  flex-direction: column;
+  margin-left: -1%;
+  margin-top: 5%;
+}
+
+.blog-third-col{
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+}
+
+.blog-card1-content{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: -30%;
+  margin-left: 5%;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+
+}
+
+
+
+.blog-card2-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  margin-top: -35%;
+  margin-left: 5%;
+  font-weight: 500;
+  font-size: 18px;
+}
+.blog-card3-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: -35%;
+  margin-left: 5%;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+
+}
+.blog-card4-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: -35%;
+  margin-left: 5%;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+}
+.blog-card5-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: -30%;
+  margin-left: 5%;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+}
+.blog-card6-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: -30%;
+  margin-left: 5%;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.blog-date{
+  margin-right: 10%;
+}
+
+.blog-whats-trending-content-para{
+  color: white;
+  font-size: 25px;
+  margin-left: 5%;
+  margin-top: -2%;
+  font-weight: 600;
+
+}
+
+.blog-whats-trending-content .blog-by-admin{
+  color: white;
+  margin-left: 5%;
+  font-weight: 500;
+}
+.blog-why-socialisation-content-para{
+  color: white;
+  font-size: 25px;
+  margin-left: 5%;
+  margin-top: -2%;
+  font-weight: 600;
+}
+.blog-why-socialisation-content .blog-by-admin{
+  margin-top: -2%;
+  margin-left: 5%;
+  font-weight: 500;
+  color: white;
+}
+.blog-why-socialisation{
+  margin-top: 10%;
+}
+.blog-bestfriend-other-content-para{
+  color: white;
+  font-size: 25px;
+  margin-left: 5%;
+  margin-top: -2%;
+  font-weight: 600;
+}
+
+.blog-bestfriend-other-content .blog-by-admin{
+  margin-top: -3%;
+  margin-left: 5%;
+  font-weight: 500;
+  color: white;
+}
+
+.blog-hire-pet-content-para{
+  color: white;
+  font-size: 25px;
+  margin-left: 5%;
+  margin-top: -2%;
+  font-weight: 600;
+}
+.blog-hire-pet-content .blog-by-admin{
+  margin-top: -3%;
+  font-weight: 500;
+  color: white;
+  margin-left: 5%;
+}
+.blog-hire-pet img{
+margin-top: 9%;
+
+}
+.blog-shoud-get-pet-content-para{
+  color: white;
+  font-size: 25px;
+  margin-left: 5%;
+  margin-top: -2%;
+  font-weight: 600;
+}
+
+.blog-shoud-get-pet-content .blog-by-admin{
+  margin-top: -2%;
+  margin-left: 5%;
+  font-weight: 500;
+  color: white;
+}
+
+.blog-pet-grooming-content-para{
+  color: white;
+  font-size: 25px;
+  margin-left: 5%;
+  margin-top: -2%;
+  font-weight: 600;
+}
+.blog-pet-grooming-content .blog-by-admin{
+  margin-top: -2%;
+  margin-left: 5%;
+  color: white;
+  font-weight: 500;
+}
+
+.blog-pet-grooming img{
+  margin-top: 10%;
+}
+
+
+/* footer content css */
+
+.blog-footer-and-dog{
+  font-family: "Quicksand";
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.blog-dont-miss-out .blog-para-1{
+  font-size: 52px;
+  font-weight: 600;
+}
+
+.blog-dont-miss-out .blog-para-1 span{
+  color: #e3647c;
+}
+
+.blog-dont-miss-out .blog-para-2{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.blog-email-and-send-button{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.blog-email input{
+/* height: 190px; */
+width: 230px;
+height: 45px;
+border-radius: 10px;
+border: 1px solid black;
+font-family: "Quicksand";
+font-size: 20px;
+}
+
+.blog-button button{
+  width: 230px;
+  height: 45px;
+  border-radius: 10px;
+  font-family: "Quicksand";
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  background-color: #e3647c;
+  color: white;
+  cursor: pointer;
+}
+
+.blog-button button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #e3647c;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out; /* Increased duration and smoother timing */
+}
+
+.blog-button button:hover {
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.3); /* Slightly stronger shadow */
+  transform: translateY(-3px); /* Lifted effect */
+}
+
+
+
+.blog-dog-image{
+  margin-top: 10%;
+  /* margin-right: 10%; */
+}
+.blog-dog-image img{
+  height: 150px;
+}
+
+.blog-cards-and-footer-content-combined{
+  background: #FFEEEC;
+  padding: 2%;
+}

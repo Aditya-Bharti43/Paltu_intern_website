@@ -1,36 +1,146 @@
 import React from 'react'
 import Header from '../Header/Header'
 import './Blogs.css'
+import Walkingdog from '../WalkingDog/Walkingdog'
+import card_1 from '../../assets/card_1.jpg'
+import card_2 from '../../assets/card_2.jpg'
+import card_3 from '../../assets/card_3.jpg'
+import card_4 from '../../assets/card_4.jpg'
+import card_5 from '../../assets/card_5.jpg'
+import card_6 from '../../assets/card_6.jpg'
+import blog_dog from '../../assets/new_dog_blog.png'
+import Footer from '../Footer/Footer'
 
 function Blogs() {
   return (
    <>
    <Header/>
-   <div className="main">
+   
+    <div className='blog-main'>
+    <div className='blog-and-cat'>
+      <div className='blog-heading'>
+        <p className='blog-span-para'>our blogs, more like a </p>
+        <p className='blog-down-para'>help book</p>
+        <div className='blog-divider'></div>
+        <p className='bpara-1'>Your go-to screen for your little ones</p>
+      </div>
+      <div className='blog-cat'>
+        <img  src="https://www.mypaaltu.com/wp-content/uploads/2022/11/18.png" alt="" />
+      </div>
+    </div>
+    <div className="blog-cards-and-footer-content-combined">
+    <div className='blog-cards'>
+      <div className='blog-first-col'>
+        <div className='blog-whats-tending'>
+          <img src={card_1} alt="" />
+          <div className='blog-card1-content'>
+            <p>[wpbread]</p>
+            <p className='blog-date'>07/04/2023</p>
+          </div>
+          <div className='blog-whats-trending-content'>
+          <p className='blog-whats-trending-content-para'>Whats trending in pet care?</p>
+          <p className='blog-by-admin'>by Admin</p>
+          </div>
+        </div>
+        <div className='blog-why-socialisation'>
+        <img src={card_4} alt="" />
+        <div className='blog-card2-content'>
+            <p>[wpbread]</p>
+            <p className='blog-date'>07/04/2023</p>
+          </div>
+          <div className='blog-why-socialisation-content'>
+          <p className='blog-why-socialisation-content-para'>Why Socialisation is Important for Pets?</p>
+          <p className='blog-by-admin'>by Admin</p>
+          </div>
+         
+        </div>
+      </div>
+      <div className='blog-second-col'>
+      <div className='blog-bestfriend-other'>
+      <img src={card_2} alt="" />
+      <div className='blog-card3-content'>
+            <p>[wpbread]</p>
+            <p className='blog-date'>07/04/2023</p>
+          </div>
+          <div className='blog-bestfriend-other-content'>
+          <p className='blog-bestfriend-other-content-para'>How to befriend other<br/> peoples pets?</p>
+          <p className='blog-by-admin'>by Admin</p>
+          </div>
+      </div>
+      <div className='blog-hire-pet'>
+      <img src={card_5} alt="" />
+      <div className='blog-card4-content'>
+            <p>[wpbread]</p>
+            <p className='blog-date'>07/04/2023</p>
+          </div>
+          <div className='blog-hire-pet-content'>
+          <p className='blog-hire-pet-content-para'>Why should you hire a pet<br/> boarder or a sitter for your pet?</p>
+          <p className='blog-by-admin'>by Admin</p>
+          </div>
+         
+      </div>
+      </div>
+      
+      <div className='blog-third-col'>
+      <div className='blog-shoud-get-pet'>
+      <img src={card_3} alt="" />
+      <div className='blog-card5-content'>
+            <p>[wpbread]</p>
+            <p className='blog-date'>07/04/2023</p>
+          </div>
+          <div className='blog-shoud-get-pet-content'>
+          <p className='blog-shoud-get-pet-content-para'>Why should you get a pet?</p>
+          <p className='blog-by-admin'>by Admin</p>
+          </div>
+          
+      </div>
+      <div className='blog-pet-grooming'>
+      <img src={card_6} alt="" />
+      <div className='blog-card6-content'>
+            <p>[wpbread]</p>
+            <p className='blog-date'>07/04/2023</p>
+          </div>
+          <div className='blog-pet-grooming-content'>
+          <p className='blog-pet-grooming-content-para'>Pet grooming- what why and how?</p>
+          <p className='blog-by-admin'>by Admin</p>
+          </div>
+          
+      </div>
+      </div>
+      
+     
 
-   <div className="upper_txt">
-    <span className='pp-first-txt'>our blogs, more like a </span>
+    </div>
+
+    <div className='blog-footer-and-dog'>
+      <div className='blog-dont-miss-out'>
+        <p className='blog-para-1'><span>Don't miss</span> out!</p>
+        <p className='blog-para-2'>Sign up for our newsletter to not miss any useful info<br/> for your pets</p>
+        <div className='blog-email-and-send-button'>
+        <div className='blog-email'>
+          <input type="text" placeholder='Email' />
+        </div>
+        <div className='blog-button'>
+          <button>Send</button>
+        </div>
+        </div>
+      </div>
+
+      <div className='blog-dog-image'>
+        <img src={blog_dog} alt="" />
+      </div>
+
+      </div>
+    </div>
+
     
-    <span className='pp-second-txt'>help book</span>
-    <div class="divider"></div>
-    <div className="content-go-to-screen">
-      Your go-to  screen  for  your  little  ones
     </div>
-   </div>
-
-    <div className="cat_img">
-    <img className='cat-1' src="https://www.mypaaltu.com/wp-content/uploads/2022/11/18.png" alt="" />
-    </div>
-   
-
-
-   </div>
-  
 
 
   
+    <Footer/>
+    <Walkingdog/>
 
-   
    </>
   )
 }

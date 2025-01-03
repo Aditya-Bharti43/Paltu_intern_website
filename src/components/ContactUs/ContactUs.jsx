@@ -3,6 +3,9 @@ import './ContactUs.css'
 import Header from '../Header/Header'
 import Footer from '../Footer/Footer'
 import Walkingdog from '../WalkingDog/Walkingdog'
+import location_logo from '../../assets/location-2950.svg'
+import phone_icon from '../../assets/phone-519.svg'
+import mail_icon from '../../assets/mail-5886.svg'
 
 function ContactUs() {
   return (
@@ -27,15 +30,15 @@ function ContactUs() {
         </div>
         <div className='contact-credentials'>
           <div className='contact-location'>
-            <img className="location-logo"src="" alt="" />
+            <img className="location-logo"src={location_logo} alt="" />
             <p>Gurugram,Haryana</p>
           </div>
           <div className='contact-phone'>
-            <img className='phone-logo' src="" alt="" />
+            <img className='phone-logo' src={phone_icon} alt="" />
             <p>+91 7528000776</p>
           </div>
           <div className='contact-mail'>
-            <img className='mail-logo' src="" alt="" />
+            <img className='mail-logo' src={mail_icon} alt="" />
             <p>support@mypaaltu.com</p>
           </div>
         </div>

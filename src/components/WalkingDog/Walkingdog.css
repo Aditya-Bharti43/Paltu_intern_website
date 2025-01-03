@@ -1,6 +1,6 @@
 .dog-1 {
     position: fixed; /* Anchors the dog to the viewport */
-    bottom: 20px; /* Adjust the vertical position (distance from the bottom of the screen) */
+    bottom: -12px; /* Adjust the vertical position (distance from the bottom of the screen) */
     left: 0; /* Start at the left edge */
     width: 100%; /* Full width of the screen */
     overflow: hidden; /* Ensures the image doesn't overflow the container */

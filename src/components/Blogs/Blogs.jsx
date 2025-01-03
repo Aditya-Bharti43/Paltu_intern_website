@@ -10,6 +10,7 @@ import card_5 from '../../assets/card_5.jpg'
 import card_6 from '../../assets/card_6.jpg'
 import blog_dog from '../../assets/new_dog_blog.png'
 import Footer from '../Footer/Footer'
+import { Link } from 'react-router-dom'
 
 function Blogs() {
   return (
@@ -38,7 +39,7 @@ function Blogs() {
             <p className='blog-date'>07/04/2023</p>
           </div>
           <div className='blog-whats-trending-content'>
-          <p className='blog-whats-trending-content-para'>Whats trending in pet care?</p>
+         <Link to={`/blogs/card1`} style={{textDecoration:"none"}}> <p className='blog-whats-trending-content-para'>Whats trending in pet care?</p></Link>
           <p className='blog-by-admin'>by Admin</p>
           </div>
         </div>
@@ -49,7 +50,7 @@ function Blogs() {
             <p className='blog-date'>07/04/2023</p>
           </div>
           <div className='blog-why-socialisation-content'>
-          <p className='blog-why-socialisation-content-para'>Why Socialisation is Important for Pets?</p>
+         <Link to={`/blogs/card2`}  style={{textDecoration:"none"}}> <p className='blog-why-socialisation-content-para'>Why Socialisation is Important for Pets?</p></Link>
           <p className='blog-by-admin'>by Admin</p>
           </div>
          
@@ -63,7 +64,7 @@ function Blogs() {
             <p className='blog-date'>07/04/2023</p>
           </div>
           <div className='blog-bestfriend-other-content'>
-          <p className='blog-bestfriend-other-content-para'>How to befriend other<br/> peoples pets?</p>
+          <Link to={`/blogs/card3`} style={{textDecoration:"none"}}><p className='blog-bestfriend-other-content-para'>How to befriend other<br/> peoples pets?</p></Link>
           <p className='blog-by-admin'>by Admin</p>
           </div>
       </div>
@@ -74,7 +75,7 @@ function Blogs() {
             <p className='blog-date'>07/04/2023</p>
           </div>
           <div className='blog-hire-pet-content'>
-          <p className='blog-hire-pet-content-para'>Why should you hire a pet<br/> boarder or a sitter for your pet?</p>
+         <Link to={`/blogs/card4`} style={{textDecoration:"none"}}> <p className='blog-hire-pet-content-para'>Why should you hire a pet<br/> boarder or a sitter for your pet?</p></Link>
           <p className='blog-by-admin'>by Admin</p>
           </div>
          
@@ -89,7 +90,7 @@ function Blogs() {
             <p className='blog-date'>07/04/2023</p>
           </div>
           <div className='blog-shoud-get-pet-content'>
-          <p className='blog-shoud-get-pet-content-para'>Why should you get a pet?</p>
+         <Link to={`/blogs/card5`} style={{textDecoration:"none"}}> <p className='blog-shoud-get-pet-content-para'>Why should you get a pet?</p></Link>
           <p className='blog-by-admin'>by Admin</p>
           </div>
           
@@ -101,7 +102,7 @@ function Blogs() {
             <p className='blog-date'>07/04/2023</p>
           </div>
           <div className='blog-pet-grooming-content'>
-          <p className='blog-pet-grooming-content-para'>Pet grooming- what why and how?</p>
+         <Link to={`/blogs/card6`} style={{textDecoration:"none"}}> <p className='blog-pet-grooming-content-para'>Pet grooming- what why and how?</p></Link>
           <p className='blog-by-admin'>by Admin</p>
           </div>
           

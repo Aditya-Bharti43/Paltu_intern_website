@@ -1,0 +1,109 @@
+.article-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5%;
+    
+}
+
+.article-heading{
+    font-family: "Quicksand";
+    color: #a02521;
+    font-size: 42px;
+    font-weight: 500;
+
+}
+
+.article-social-media{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.article-social-media-row1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.article-social-media-row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.facebook-logo-text{
+    display: flex;
+    flex-direction: row;
+}
+.facebook-logo-text img{
+    height: 40px;
+}
+.twitter-logo-text{
+    display: flex;
+    flex-direction: row;
+}
+
+.twitter-logo-text img{
+    height: 30px;
+    margin-top: 5%;
+}
+
+.linkedin-logo-text{
+    display: flex;
+    flex-direction: row;
+}
+
+.linkedin-logo-text img{
+    height: 40px;
+}
+
+.pinterest-logo-text{
+    display: flex;
+    flex-direction: row;
+}
+.pinterest-logo-text img{
+    height: 40px;
+}
+.whatsapp-logo-text{
+    display: flex;
+    flex-direction: row;
+}
+.whatsapp-logo-text img{
+    height: 40px;
+}
+.telegram-logo-text{
+    display: flex;
+    flex-direction: row;
+}
+.telegram-logo-text img{
+    height: 40px;
+}
+
+.article-facebook{
+padding-right: 3%;
+
+background-color: rgb(19, 132, 202);
+}
+
+.article-twitter{
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    background-color: rgba(48, 46, 46, 0.797);
+}
+
+.article-linkedin{
+    padding-left: 1.5%;
+    background-color: rgb(2, 179, 244);
+}
+.article-pinterest{
+    /* padding-right: 3%; */
+    
+    /* margin-left: -3%; */
+   
+}
+
+.article-whatsapp{
+    margin-left: 4%;
+}

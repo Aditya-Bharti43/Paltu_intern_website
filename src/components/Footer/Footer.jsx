@@ -5,7 +5,7 @@ import follow_txt from '../../assets/follow_txt.svg'
 import insta_in from '../../assets/insta_in.svg'
 import era_det from '../../assets/era_details.svg'
 import priv_det from '../../assets/privacy_txt.svg'
-import mad_with from '../../assets/MAde_with_txt.svg'
+import mad_with from '../../assets/Made_with_txt.svg'
 import heart_img from '../../assets/heart_img.svg'
 
 

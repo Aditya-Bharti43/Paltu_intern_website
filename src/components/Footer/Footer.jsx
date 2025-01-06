@@ -10,8 +10,6 @@ import heart_img from '../../assets/heart_img.svg'
 
 
 
-
-
 function Footer() {
   return (
     <div>

@@ -16,16 +16,7 @@ import cat_3 from './assets/cat_3.svg'
 import name from './assets/name_txt.svg'
 import email from './assets/email_txt.svg'
 import phone from './assets/phone_txt.svg'
-import logo_2 from './assets/logo_2.svg'
-import follow_txt from './assets/follow_txt.svg'
-import insta_in from './assets/insta_in.svg'
-import era_det from './assets/era_details.svg'
-import priv_det from './assets/privacy_txt.svg'
-import mad_with from './assets/Made_with_txt.svg'
-import heart_img from './assets/heart_img.svg'
-
-
-
+import Walkingdog from './components/WalkingDog/Walkingdog'
 import './App.css'
 import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
@@ -84,8 +75,8 @@ function App() {
       <input className="name_1" type="text" placeholder='Name' />
 
 
-      <input className="email" type="text" placeholder='loremipsum@gmail.com' />
-      <input className="phone_no" type="text" placeholder='+91 XXXXXXXXXX' />
+      <input className="email" type="text" placeholder='+91 XXXXXXXXXX' />
+      <input className="phone_no" type="text" placeholder='loremipsum@gmail.com' />
 
 
 
@@ -100,7 +91,7 @@ function App() {
      
       <Footer/>
 
-
+      <Walkingdog/>
 
 
     </>

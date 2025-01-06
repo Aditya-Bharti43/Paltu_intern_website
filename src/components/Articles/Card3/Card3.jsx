@@ -3,10 +3,12 @@ import './Card3.css'
 import ArticleFooter from '../../ArticleFooter/ArticleFooter'
 import card_3_img from '../../../assets/card_2.jpg'
 import ArticleHeader from '../../ArticleHeader/ArticleHeader'
+import Header from '../../Header/Header'
 
 function Card3() {
   return (
     <>
+    <Header />
       <div className="card3-main">
         <p className='card3-heading'>How to befriend other peoples pets??</p>
         <img className='card3-main-image' src={card_3_img} alt="" />

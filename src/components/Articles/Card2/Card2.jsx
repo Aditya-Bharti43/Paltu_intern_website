@@ -3,9 +3,11 @@ import './Card2.css'
 import ArticleFooter from '../../ArticleFooter/ArticleFooter'
 import ArticleHeader from '../../ArticleHeader/ArticleHeader'
 import card_2_img from '../../../assets/card_4.jpg'
+import Header from '../../Header/Header'
 function Card2() {
   return (
     <>
+    <Header />
       <div className="card2-main">
         <p className='card1-heading'>Why Socialisation Is Important for Pets?</p>
         <img className='card2-main-image' src={card_2_img} alt="" />

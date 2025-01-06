@@ -3,9 +3,11 @@ import './Card6.css'
 import ArticleFooter from '../../ArticleFooter/ArticleFooter'
 import card_6_img from '../../../assets/card_6.jpg'
 import ArticleHeader from '../../ArticleHeader/ArticleHeader'
+import Header from '../../Header/Header'
 function Card6() {
   return (
     <>
+    <Header />
       <div className="card6-main">
         <p className='card6-heading'>Pet grooming- what why and how?</p>
         <img className='card6-main-image' src={card_6_img} alt="" />

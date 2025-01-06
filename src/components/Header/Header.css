@@ -4,3 +4,43 @@
     justify-content: center;
 
 }
+
+.logo img{
+    cursor: pointer;
+}
+.menu-title{
+    color: #e3647c;
+}
+
+.side-menu{
+    font-family: "Quicksand";
+    background-color: #FFEEEC;
+    
+}
+
+.side-menu-img{
+    height: 20%;
+}
+
+.menu-items{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.side-menu-routes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.side-menu-routes li{
+    font-size: 32px;
+    font-weight: 500;
+    transform: 0.2s ease;
+}
+
+.side-menu-routes li:hover{
+    color: #e3647c;
+}

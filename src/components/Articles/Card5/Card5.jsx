@@ -3,10 +3,11 @@ import './Card5.css'
 import ArticleFooter from '../../ArticleFooter/ArticleFooter'
 import card_5_img from '../../../assets/card_3.jpg'
 import ArticleHeader from '../../ArticleHeader/ArticleHeader'
-
+import Header from '../../Header/Header'
 function Card5() {
   return (
     <>
+    <Header />
       <div className="card5-main">
         <p className='card5-heading'>Why you should get a pet?</p>
         <img className='card5-main-image' src={card_5_img} alt="" />

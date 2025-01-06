@@ -3,10 +3,11 @@ import './Card4.css'
 import ArticleFooter from '../../ArticleFooter/ArticleFooter'
 import card_4_img from '../../../assets/card_5.jpg'
 import ArticleHeader from '../../ArticleHeader/ArticleHeader'
-
+import Header from '../../Header/Header'
 function Card4() {
   return (
     <>
+    <Header />
       <div className="card4-main">
         <p className='card4-heading'>Why should you hire a pet boarder or a sitter for your pet?</p>
         <img className='card4-main-image' src={card_4_img} alt="" />

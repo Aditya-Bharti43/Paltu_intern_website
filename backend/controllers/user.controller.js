@@ -6,7 +6,9 @@ const userController = async (req,res)=>{
     // check whether user already exists or not
     // if user already exists then send error message
     // if user does not exists then create a new user and send success message
+    
 
+    // console.log("Received data:", req.body);
     const {username,phone_no,email} = req.body;
     if(!username || !phone_no || !email){
         return res.status(400).json({
@@ -14,7 +16,8 @@ const userController = async (req,res)=>{
             message:"Please provide all the details"
         })
     }
-
+    console.log("Received data:", req.body);
+    
     const user = await User.findOne({$or:[{username},{email}]});
 
     if(user)
@@ -35,12 +38,15 @@ const userController = async (req,res)=>{
         })
     }
 
+    console.log("USer added successfully");
+
     return res.status(201).json({
         success:true,
         message:"User created successfully",
         user:newUser
     })
-
+  
+    
 }
 
 

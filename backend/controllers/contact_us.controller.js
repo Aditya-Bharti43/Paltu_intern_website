@@ -16,6 +16,8 @@ const contactUsController = async (req, res) => {
         })
     }
 
+    console.log("Received contact data:", req.body);
+
     const user = await ContactUs.findOne({$or:[{username},{email}]});
 
     if(user)
@@ -34,6 +36,9 @@ const contactUsController = async (req, res) => {
             message: "Internal server error"
         })
     }
+
+    console.log("Contactus controller hit successfull");
+    
 
     return res.status(201).json({
         success: true,

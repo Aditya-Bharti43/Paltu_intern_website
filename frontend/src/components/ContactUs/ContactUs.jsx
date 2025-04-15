@@ -1,4 +1,5 @@
 import React from 'react'
+import { useState } from 'react'
 import './ContactUs.css'
 import Header from '../Header/Header'
 import Footer from '../Footer/Footer'
@@ -6,8 +7,35 @@ import Walkingdog from '../WalkingDog/Walkingdog'
 import location_logo from '../../assets/location-2950.svg'
 import phone_icon from '../../assets/phone-519.svg'
 import mail_icon from '../../assets/mail-5886.svg'
+import axios from 'axios'
 
 function ContactUs() {
+
+  const [formData, setFormData] = useState({
+    username: '',
+    phone_no: '',
+    email: '',
+    message: ''
+  });
+
+  const [responseMsg, setResponseMsg] = useState('');
+
+  const handleChange = (e) => {
+    setFormData({...formData, [e.target.name]: e.target.value});
+  };
+
+  const handleSubmit = async () => {
+    try {
+      console.log(formData);
+      
+      const res = await axios.post('http://localhost:4000/api/v1/contactUs/contact', formData);
+      setResponseMsg("We'll call you back soon!");
+    } catch (err) {
+      console.error(err);
+      setResponseMsg('Something went wrong. Please try again.');
+    }
+  };
+
   return (
     <div>
 
@@ -53,20 +81,21 @@ function ContactUs() {
           </div>
           <div className='contact-user-box'>
             <div className='contact-name-field'>
-              <input type="text" placeholder='Name' />
+              <input name='username' type="text" placeholder='Name' onChange={handleChange} value={formData.username} />
             </div>
             <div className='contact-phone-field'>
-            <input type="text" placeholder='Phone' />
+            <input type="text" name='phone_no' placeholder='Phone' onChange={handleChange} value={formData.phone_no} />
             </div>
             <div className='contact-email-field'>
-            <input type="text" placeholder='Email' />
+            <input type="text" name='email' placeholder='Email' onChange={handleChange} value={formData.email} />
             </div>
             <div className='contact-message-field'>
-            <input type="text" placeholder='Message' />
+            <input type="text" name='message' placeholder='Message' onChange={handleChange} value={formData.message} />
             </div>
             <div className="contact-button-field">
-              <button className='contact-call-button'> <p>Call Me Back</p></button>
+              <button className='contact-call-button' onClick={handleSubmit}> <p>Call Me Back</p></button>
             </div>
+            {responseMsg && <p>{responseMsg}</p>}
           </div>
         </div>
       </div>

@@ -211,6 +211,60 @@
    cursor: pointer;
 }
 
+
+
+
 .article-button button:hover{
     background-color: #046a9dd6;
 }
+
+.article-button-row {
+  display: flex;
+  gap: 20px;
+  margin-top: 2%;
+}
+
+.article-button-row button {
+  background-color: #0170b9;
+  border: none;
+  height: 40px;
+  width: 120px;
+  color: white;
+  cursor: pointer;
+  font-family: "Quicksand";
+  font-weight: 500;
+}
+
+.article-button-row button:hover {
+  background-color: #046a9dd6;
+}
+
+.article-comments-table {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.article-comments-table table {
+  width: 90%;
+  border-collapse: collapse;
+  font-family: "Quicksand";
+  margin-top: 20px;
+}
+
+.article-comments-table th,
+.article-comments-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.article-comments-table th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.article-comments-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+

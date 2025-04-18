@@ -3,7 +3,7 @@ import Header from '../Header/Header'
 import './AboutUs.css'
 import Footer from '../Footer/Footer'
 import Walkingdog from '../WalkingDog/Walkingdog'
-
+import piku_img from '../../assets/pikku_1.jpg'
 function AboutUs() {
   return (
     <div>
@@ -79,12 +79,12 @@ function AboutUs() {
           </div>
         </div>
         <div className='pik-img-2'>
-          <img className='pikku-image-2' src="https://www.mypaaltu.com/wp-content/uploads/2023/06/IMG_8133-768x1277.png" alt="" />
+          <img className='pikku-image-2' src={piku_img} alt="" />
         </div>
       </div>
 
       <Footer/>
-      <Walkingdog/>
+     
 
     </div>
   )

@@ -467,15 +467,7 @@ img {
   }
 }
 
-/* Animation for walking dog */
-@keyframes walkingDog {
-  0% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(100vw);
-  }
-}
+
 
 /* Make sure the walking dog animation works properly */
 .walking-dog-component {

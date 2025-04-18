@@ -1,7 +1,7 @@
-import React, { useState, useRef, useEffect } from 'react'
-import logo_img from '../../assets/header_1_logo.svg';
-import './Header.css'
+import React, { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import logo_img from '../../assets/header_1_logo.svg';
+import './Header.css';
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -61,12 +61,12 @@ function Header() {
               <Link to={`/aboutus`} onClick={toggleMenu}><li>About Us</li></Link>
               <Link to={`/contactus`} onClick={toggleMenu}><li>Contact Us</li></Link>
             </div>
-            <li>Let's connect or make our pets connect?</li>
+            <li className="connect-message">Let's connect or make our pets connect?</li>
           </ul>
         </div>
       )}
     </>
-  )
+  );
 }
 
-export default Header
+export default Header;

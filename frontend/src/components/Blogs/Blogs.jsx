@@ -140,7 +140,7 @@ function Blogs() {
     </div>
     
     <Footer/>
-    <Walkingdog/>
+   
    </>
   )
 }

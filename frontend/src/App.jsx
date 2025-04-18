@@ -71,7 +71,7 @@ function App() {
       <section className="cat-section">
         <div className="cat-content">
           <img className='cat-image' src={cat_1} alt="Cat" />
-          <img className="frame-image-2" src={frame_2} alt="Frame 2" />
+         
         </div>
       </section>
       
@@ -90,16 +90,13 @@ function App() {
         <img className="cat-2" src={cat_2} alt="Cat 2" />
       </section>
       
-      {/* Bone Section */}
-      <section className="bone-section">
-        <img className="bone-image" src={bone_1} alt="Bone" />
-      </section>
+     
       
       {/* Registration Form Section */}
       <section className="registration-section">
         <div className="registration-content">
           <img className="register-image" src={register_1} alt="Register" />
-          <img className="cat-3" src={cat_3} alt="Cat 3" />
+       
           
           <div className="form-container">
             <div className="form-group">
@@ -142,11 +139,7 @@ function App() {
         </div>
       </section>
       
-      {/* Walking Dog Section */}
-      <section className="walking-dog-section">
-        <img className='dog-left' src="https://s3-alpha-sig.figma.com/img/1d6d/1b37/e3ffaff74f67ff4371718bb0e0b3f0a7?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=OB2ot340bIEMbv5Tagrw2pK841HlRI8QFpdpb~5zEjp3Non4xsZdTzDdwLmKko5OQbQ~XnwYxDjxn7kXs6DBCTsZeed5wqmFZse5Cf9e1tGet2yDojcrzn2jdjVJuz5~~3XBpYR39m4yohH2inKNe6~OXu2JPQ2usfsDjOmcxBhPikPyh6ZVNyaSrr8iU51NWfaJvbJj66IUsRk4TzxK3-Nsw8rhEnpeacrrZUgENSz9HZ8YW3Jh27pBVHx9vC8jQAvM67jOe4tcUtlao-Hld~j5urvjIDLU4qJMX-B1XTP9wRLoAt7IpaBYAfXSougnI0LoMGALKA9llQvmY4Otbw__" alt="Walking Dog" />
-        <Walkingdog />
-      </section>
+   
       
       <Footer />
     </div>

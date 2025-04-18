@@ -101,7 +101,7 @@ function ContactUs() {
       </div>
 
       <Footer/>
-      <Walkingdog/>
+   
       
     </div>
   )

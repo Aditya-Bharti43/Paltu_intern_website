@@ -25,6 +25,7 @@ import cat_3 from './assets/cat_3.svg'
 import name from './assets/name_txt.svg'
 import email from './assets/email_txt.svg'
 import phone from './assets/phone_txt.svg'
+import { use } from 'react'
 
 function App() {
   const [formData, setFormData] = useState({
@@ -34,6 +35,34 @@ function App() {
   }) 
 
   const handleSubmit = async () => {
+
+    const {username,email,phone_no}=formData
+
+    const nameRegex=/^[A-Za-z\s]+$/
+    const phoneRegex=/^\d{10}$/
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    // username validation
+
+    if(!nameRegex.test(username))
+    {
+      alert('Only characters are allowed in username')
+    }
+
+    // phone_no validation
+
+    if(!phoneRegex.test(phone_no))
+    {
+      alert('Invalid phone number must be of 10 digits')
+    }
+
+    // email validation
+
+    if(!emailRegex.test(email))
+    {
+      alert('Invalid email address')
+    }
+
     try {
       const res = await axios.post('http://localhost:4000/api/v1/user/register', formData)
       alert("User added successfully!")

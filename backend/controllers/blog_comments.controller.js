@@ -1,16 +1,7 @@
-import mongoose from "mongoose";
+
 
 import { BlogComments } from "../models/blog_comments.model.js";
-// import { Blog } from "../models/blog.model.js";
-
 const blogCommentsController = async (req, res) => {
-
-    // get details from frontend
-    // check whether the details are present or not
-    // check whether user already exists or not 
-    // if user already exists then send error message
-    // if user does not exists then create a new user and send success message
-
     const { comment, username, email, website } = req.body;
 
     if ( !username || !email ) {
